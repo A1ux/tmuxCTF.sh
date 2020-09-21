@@ -38,7 +38,7 @@ if [ "$(id -u)" -eq "0" ]; then
 	if [ $# -eq 2 ]; then
 		acceso $1
 		sesionTmux $1
-		agregarHost $1 $2
+		agregarHost $2 $1
 		tmux attach -t $1
 	else
 		echo "Uso: $0 <nombremaquina> <ip>"
