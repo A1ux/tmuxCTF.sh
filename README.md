@@ -8,7 +8,7 @@ La herramienta hace lo siguiente:
 <br>
 -Abre una sesion en tmux con el nombre de la maquina
 <br>
-----Abre 4 ventanas de: scan, content, exploit, scripts
+----Abre 4 ventanas con su directorio de: scan, content, exploit, scripts
 <br>
 -Agrega el nombre de la maquina al archivo hosts con su ip
 <br>
